@@ -1,0 +1,11 @@
+.section-main {
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold; }
+    @media screen and (max-width: 767px) {
+      .section-main {
+        height: 368px; } }

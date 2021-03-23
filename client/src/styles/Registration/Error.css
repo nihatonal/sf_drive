@@ -1,0 +1,30 @@
+.container_error {
+    width: 1440px;
+    height: 58px;
+    background: #EB5757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.container_error-item{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 767px) {
+    .container_error {
+        width: 375px;
+        height: 72px;
+     }
+    .container_error-item{
+        font-size: 14px;
+        width: 335px;
+    } }

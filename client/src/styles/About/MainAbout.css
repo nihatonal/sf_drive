@@ -1,0 +1,9 @@
+.container-about {
+    width: 1440px;
+    margin-top: 170px;
+}
+@media screen and (max-width: 767px) {
+    .container-about {
+      width: 375px;
+      margin-top: 108px;} 
+  }

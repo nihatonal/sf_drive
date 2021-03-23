@@ -1,0 +1,27 @@
+.circle{
+    color: white;
+    opacity: 1;
+    border-radius: 100%;
+}
+@media screen and (max-width: 767px){
+.container-circle{
+    width: 32px;
+    color: white;
+    opacity: 1;
+    left: 8px;
+    top:-8px;
+}}
+/* .container{
+    display: ;
+}
+.circleMobil{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .circle{
+        display: none;
+    }
+    .circleMobil{
+        display: block;
+    }
+} */
